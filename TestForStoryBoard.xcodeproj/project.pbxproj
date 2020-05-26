@@ -16,6 +16,10 @@
 		343C2C73247BCC45005C0041 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 343C2C72247BCC45005C0041 /* main.m */; };
 		343C2C7D247BCC45005C0041 /* TestForStoryBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 343C2C7C247BCC45005C0041 /* TestForStoryBoardTests.m */; };
 		343C2C88247BCC45005C0041 /* TestForStoryBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 343C2C87247BCC45005C0041 /* TestForStoryBoardUITests.m */; };
+		343C2C97247BCC6E005C0041 /* CarouselController.m in Sources */ = {isa = PBXBuildFile; fileRef = 343C2C96247BCC6E005C0041 /* CarouselController.m */; };
+		343C2C9A247BD1AF005C0041 /* TableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 343C2C99247BD1AF005C0041 /* TableController.m */; };
+		343C2C9C247CC4AB005C0041 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 343C2C9B247CC4AB005C0041 /* Live.storyboard */; };
+		343C2CA1247CF779005C0041 /* New.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 343C2CA0247CF779005C0041 /* New.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,12 @@
 		343C2C83247BCC45005C0041 /* TestForStoryBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestForStoryBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		343C2C87247BCC45005C0041 /* TestForStoryBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestForStoryBoardUITests.m; sourceTree = "<group>"; };
 		343C2C89247BCC45005C0041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		343C2C95247BCC6E005C0041 /* CarouselController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarouselController.h; sourceTree = "<group>"; };
+		343C2C96247BCC6E005C0041 /* CarouselController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarouselController.m; sourceTree = "<group>"; };
+		343C2C98247BD1AF005C0041 /* TableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableController.h; sourceTree = "<group>"; };
+		343C2C99247BD1AF005C0041 /* TableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableController.m; sourceTree = "<group>"; };
+		343C2C9B247CC4AB005C0041 /* Live.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		343C2CA0247CF779005C0041 /* New.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = New.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +121,16 @@
 				343C2C66247BCC43005C0041 /* ViewController.h */,
 				343C2C67247BCC43005C0041 /* ViewController.m */,
 				343C2C69247BCC43005C0041 /* Main.storyboard */,
+				343C2C9B247CC4AB005C0041 /* Live.storyboard */,
+				343C2CA0247CF779005C0041 /* New.storyboard */,
 				343C2C6C247BCC45005C0041 /* Assets.xcassets */,
 				343C2C6E247BCC45005C0041 /* LaunchScreen.storyboard */,
 				343C2C71247BCC45005C0041 /* Info.plist */,
 				343C2C72247BCC45005C0041 /* main.m */,
+				343C2C95247BCC6E005C0041 /* CarouselController.h */,
+				343C2C96247BCC6E005C0041 /* CarouselController.m */,
+				343C2C98247BD1AF005C0041 /* TableController.h */,
+				343C2C99247BD1AF005C0041 /* TableController.m */,
 			);
 			path = TestForStoryBoard;
 			sourceTree = "<group>";
@@ -240,8 +256,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343C2CA1247CF779005C0041 /* New.storyboard in Resources */,
 				343C2C70247BCC45005C0041 /* LaunchScreen.storyboard in Resources */,
 				343C2C6D247BCC45005C0041 /* Assets.xcassets in Resources */,
+				343C2C9C247CC4AB005C0041 /* Live.storyboard in Resources */,
 				343C2C6B247BCC43005C0041 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,9 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343C2C9A247BD1AF005C0041 /* TableController.m in Sources */,
 				343C2C68247BCC43005C0041 /* ViewController.m in Sources */,
 				343C2C62247BCC43005C0041 /* AppDelegate.m in Sources */,
 				343C2C73247BCC45005C0041 /* main.m in Sources */,
+				343C2C97247BCC6E005C0041 /* CarouselController.m in Sources */,
 				343C2C65247BCC43005C0041 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
